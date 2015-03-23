@@ -10,7 +10,7 @@ defined('C5_EXECUTE') or die(_("Access Denied."));
 class Controller extends Package {
     protected $pkgHandle = "mautic";
     protected $appVersionRequired = "5.7.0.4";
-    protected $pkgVersion = "0.9";
+    protected $pkgVersion = "0.9.1";
     
     public function getPackageName() {
         return t('Mautic');
