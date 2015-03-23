@@ -17,7 +17,13 @@ class Controller extends Package {
     }
 
     public function getPackageDescription() {
-        return t('Mautic Integrationd Plugin');
+        $desc = t('Mautic Integration Plugin - tracking and forms.');
+        $desc .= '<br>';
+        $desc .= t('Find more information in the ');
+        $desc .= '<a href="https://github.com/mautic/mautic-concrete5" target="_blank">';
+        $desc .= t('documentation');
+        $desc .= '</a>.';
+        return $desc;
     }
 
 	public function install() {
